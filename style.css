@@ -5,15 +5,17 @@
     width: 40px;
     height: 40px;
     cursor: pointer;
-    margin-top: 1%;
+    margin-top: 1%; 
 }
+
 
 .bar1 {
     position: relative;
     background-color: black;
-    width: 30px;
+    width: 10px;
     height: 5px;
-    margin: 6px auto;
+    margin: 6px auto;   
+    transition: .5s;
 }
 
 .sidemenu {
@@ -26,13 +28,14 @@
     padding-top: 10px;
     background-color: azure;
     overflow-x: hidden;
-    transition: 1s;
+    transition: 0.5s;
 }
 
 .sidemenu a {
     display: block;
+    text-decoration: none;
 }
 
-.sidemenu a {
-    color: #1cc470;
+.sidemenu a:hover {
+    color: #2512d6;
 }
