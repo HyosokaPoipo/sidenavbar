@@ -1,0 +1,17 @@
+.mynavbutton {
+    position: relative;
+    border: 1px solid green;
+    left: 60px;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    margin-top: 1%;
+}
+
+.bar1 {
+    position: relative;
+    background-color: black;
+    width: 30px;
+    height: 5px;
+    margin: 6px auto;
+}
